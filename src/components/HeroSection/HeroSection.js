@@ -1,13 +1,14 @@
 import React from "react"
-import homeVideo from "../../videos/homeVideo.mp4"
 import * as styles from "./HeroSection.module.scss"
 import { BsArrowDownCircle } from "react-icons/bs"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 
 const HeroSection = () => {
+  const homeVideo = "homeVideo.mp4"
+
   return (
     <section className={styles.hero}>
-      <video loop muted autoPlay controls="" poster="videoPoster.png">
+      <video loop muted autoPlay controls poster="videoPoster.png">
         <source src={homeVideo} type="video/mp4" />
         <p>Message for when the video cannot be played.</p>
       </video>
