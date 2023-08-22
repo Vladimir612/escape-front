@@ -1,0 +1,236 @@
+@import "../../global.scss";
+
+.application-wrapper {
+  min-height: calc(100vh - 17rem);
+  max-width: 90%;
+  margin: 7rem auto 3rem auto;
+  position: relative;
+  .poruka-uspeh {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    @include box-center($direction: column);
+    gap: 2rem;
+    h1 {
+      text-align: center;
+    }
+    .dugme-uspeh {
+      width: 9rem;
+      border-radius: 0.5rem;
+      height: 2.5rem;
+      background-color: $green-000;
+      font-weight: bold;
+      @include box-center;
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+  .illustration-steps {
+    margin-top: 1rem;
+    position: relative;
+    width: 6rem;
+    @include box-center($justify: space-between);
+    .circle-step {
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+      border: 2px solid $white-000;
+      background: $black-000;
+      z-index: 2;
+      &.active {
+        background: $white-000;
+      }
+    }
+    .line {
+      background: $white-000;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+      height: 2px;
+      width: 100%;
+    }
+  }
+  .top-content {
+    @include box-center($direction: column);
+    h2 {
+      text-align: center;
+      font-weight: 500;
+      letter-spacing: 2px;
+      font-size: 1.6rem;
+    }
+    p {
+      letter-spacing: 1px;
+      margin-top: 0.4rem;
+      font-weight: 300;
+    }
+  }
+  .none {
+    display: none;
+  }
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus {
+    border: 2px solid $green-000;
+    background: none;
+    -webkit-text-fill-color: white;
+    box-shadow: 0 0 0px 1000px $black-200 inset;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+}
+
+.application-container {
+  button {
+    border-radius: 2rem;
+  }
+}
+
+.application-flex {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+  .none {
+    display: none;
+  }
+  h2 {
+    color: white;
+    margin-bottom: 0.6rem;
+    font-size: 1.8rem;
+  }
+
+  .application-container {
+    width: 25rem;
+    margin: auto;
+    max-width: 95%;
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .input-page {
+      width: 100%;
+      padding-bottom: 0rem;
+      display: flex;
+      flex-direction: column;
+      &.third-form {
+        max-width: 90vw;
+        width: 42rem;
+      }
+    }
+
+    .field {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 0.5rem;
+      box-sizing: border-box;
+      resize: vertical;
+      background-color: $black-200;
+      outline: none;
+      resize: none;
+      margin-bottom: 1rem;
+      border: 2px solid transparent;
+      &.error {
+        border: 2px solid #c53030;
+      }
+      &:focus {
+        border: 2px solid $green-000;
+      }
+      &::placeholder {
+        color: #dadada;
+      }
+    }
+
+    .textarea {
+      height: 8rem;
+      width: 100%;
+    }
+
+    .label-group {
+      width: 25%;
+    }
+
+    .desc {
+      padding-top: 1.5rem;
+      font-size: 1.1rem;
+      padding-left: 0.5rem;
+      color: white;
+    }
+
+    .more-info {
+      width: 90%;
+      color: #686b6d;
+      font-size: 0.9rem;
+      margin-top: 0.2rem;
+    }
+
+    .check-group {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .checkbox-group {
+      font-size: 1.1rem;
+      color: white;
+      margin-bottom: 1rem;
+    }
+
+    .checkbox {
+      width: 1.1rem;
+      height: 1.1rem;
+      border: none;
+      margin-right: 1rem;
+      transform: translateY(2px);
+    }
+
+    .another-option {
+      color: white;
+      text-align: center;
+      margin-top: 0.5rem;
+    }
+    .green-btn {
+      width: 9rem;
+      border: 0;
+      border-radius: 0.5rem;
+      height: 2.5rem;
+      margin-top: 0.5rem;
+      background-color: $green-000;
+      font-weight: bold;
+    }
+    .button-group {
+      @include box-center;
+      gap: 2rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .successful-application {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .field-group {
+    width: 100% !important;
+    svg {
+      filter: invert(1);
+      background: white;
+      color: white;
+    }
+  }
+
+  .successful-application {
+    img {
+      width: 70%;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+}

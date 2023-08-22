@@ -1,0 +1,66 @@
+@import "../../global.scss";
+
+.bannerWrapper {
+  margin-top: 5rem;
+  position: relative;
+  .imgWrapper {
+    width: 100vw;
+    height: 60vh;
+    object-fit: cover;
+    opacity: 0.65;
+    // img {
+    //   object-position: 75% 25% !important;
+    // }
+  }
+  h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 1.9rem;
+    text-align: center;
+  }
+}
+
+.programDetails {
+  p,
+  .agesList,
+  h3 {
+    max-width: 75%;
+    margin: 2rem auto;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  .agesList {
+    list-style-type: disc;
+    padding-left: 1rem;
+    li {
+      font-size: 1.2rem;
+      margin: 1rem 0;
+    }
+  }
+  p {
+    font-size: 1.3rem;
+    margin: 3rem auto;
+  }
+}
+
+@media screen and (max-width: 1410px) {
+  .programDetails {
+    p,
+    .agesList,
+    h3 {
+      max-width: 90%;
+    }
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .bannerWrapper {
+    .imgWrapper {
+      height: 35vh;
+    }
+  }
+}

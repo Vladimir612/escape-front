@@ -1,0 +1,66 @@
+@import "../../../global.scss";
+
+.location {
+  width: 100vw;
+  padding: 4rem 0;
+  &:nth-child(2n + 1) {
+    background-color: $black-100;
+  }
+  .content {
+    max-width: 75%;
+    margin-left: 12.5%;
+    @include box-center($justify: flex-start);
+    gap: 7rem;
+  }
+  .imgWrapper {
+    min-width: 15rem;
+    width: 15rem;
+    height: 15rem;
+  }
+  .rightSide {
+    p {
+      font-size: 1rem;
+      margin: 0.6rem 0;
+      max-width: 100%;
+    }
+    h3 {
+      font-size: 1.7rem;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-weight: 500;
+    }
+    .addressHelp {
+      margin-top: 0.1rem;
+      font-style: italic;
+    }
+    .phoneWrapper,
+    .emailWrapper {
+      @include box-center($justify: flex-start);
+      gap: 0.75rem;
+      margin-top: 0.9rem;
+    }
+  }
+}
+
+@media screen and (max-width: 1410px) {
+  .location {
+    .content {
+      max-width: 90%;
+      margin-left: 5%;
+    }
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .location {
+    .content {
+      flex-direction: column;
+      gap: 3rem;
+    }
+    .rightSide {
+      @include box-center($direction: column, $align: flex-start);
+      margin-left: 4rem;
+      width: calc(100vw - 4rem);
+    }
+  }
+}

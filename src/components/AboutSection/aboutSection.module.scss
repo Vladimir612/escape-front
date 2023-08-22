@@ -1,0 +1,31 @@
+@import "../../global.scss";
+
+.aboutSection {
+  max-width: 75%;
+  margin: auto;
+  @include box-center($direction: column);
+  .imgWrapper {
+    width: 100%;
+    max-width: 50rem;
+    margin: 1.5rem 0;
+  }
+  h1,
+  p {
+    color: $txt-white;
+  }
+  h1 {
+    margin: 2rem 0;
+    font-size: 2.3rem;
+  }
+  p {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    margin: 2rem 0;
+  }
+}
+
+@media screen and (max-width: 1410px) {
+  .aboutSection {
+    max-width: 90%;
+  }
+}

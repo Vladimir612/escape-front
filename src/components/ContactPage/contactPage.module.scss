@@ -1,0 +1,49 @@
+@import "../../global.scss";
+
+.contactPage {
+  max-width: 75%;
+  margin: 8rem auto;
+  min-height: calc(100vh - 21rem);
+  p {
+    letter-spacing: 1px;
+    font-size: 1.6rem;
+    margin-top: 3rem;
+  }
+  .contacts {
+    margin: 2rem 0;
+    @include box-center($justify: flex-start, $align: flex-start);
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 4rem;
+    h2 {
+      font-size: 1.9rem;
+      margin: 1rem 0;
+    }
+    .phoneWrapper,
+    .emailWrapper {
+      @include box-center($justify: flex-start);
+      gap: 0.75rem;
+      margin-top: 1.2rem;
+      p {
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1410px) {
+  .contactPage {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .contactPage {
+    p {
+      text-align: center;
+    }
+    .contacts {
+      flex-direction: column;
+    }
+  }
+}

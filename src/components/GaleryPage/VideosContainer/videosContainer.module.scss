@@ -1,0 +1,23 @@
+@import "../../../global.scss";
+
+.videosContainer {
+  @include box-center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  margin: 3rem auto;
+  .imgWrapper {
+    width: 100%;
+  }
+  .videoWrapper {
+    width: 22rem;
+    position: relative;
+    @include box-center($direction: column);
+  }
+  h4 {
+    text-align: center;
+    margin-top: 1.1rem;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+  }
+}

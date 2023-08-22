@@ -1,0 +1,32 @@
+@import "../../global.scss";
+
+.mainFooter {
+  @include box-center($justify: space-between);
+  max-width: 75%;
+  margin: 2rem auto;
+  margin-top: 5rem;
+  .leftSide {
+    font-size: 1.3rem;
+  }
+  .rightSide {
+    @include box-center;
+    gap: 2rem;
+    .imageWrapper {
+      height: 2.2rem;
+      @include box-center;
+      transition: all 0.3s ease-in-out;
+      .logo {
+        @include fit-image;
+      }
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1410px) {
+  .mainFooter {
+    max-width: 90%;
+  }
+}

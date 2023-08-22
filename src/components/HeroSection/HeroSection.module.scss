@@ -1,0 +1,18 @@
+@import "../../global.scss";
+
+.hero {
+  height: calc(100vh - 5rem);
+  overflow: hidden;
+  position: relative;
+  @include box-center($direction: column, $justify: space-between);
+  margin-top: 5rem;
+  video {
+    height: 85%;
+    width: 100vw;
+    object-fit: cover;
+  }
+  .buttonScroll {
+    @include box-center;
+    height: calc(15%);
+  }
+}

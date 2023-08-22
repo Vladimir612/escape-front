@@ -1,0 +1,32 @@
+@import "../../global.scss";
+
+.enrollmentSection {
+  margin: 4rem auto;
+  @include box-center($direction: column);
+  max-width: 75%;
+  p {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    margin: 0.6rem 0;
+  }
+  .downloadButton {
+    margin: 4rem auto;
+    @include box-center;
+    gap: 1rem;
+    background: $black-100;
+    border-radius: 0.8rem;
+    padding: 1.5rem 2.5rem;
+    .logo {
+      width: 3rem;
+    }
+    &:hover {
+      background: $black-300;
+    }
+  }
+}
+
+@media screen and (max-width: 1410px) {
+  .enrollmentSection {
+    max-width: 90%;
+  }
+}
