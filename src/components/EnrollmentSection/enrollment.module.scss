@@ -30,3 +30,14 @@
     max-width: 90%;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .enrollmentSection {
+    .downloadButton{
+      p{
+
+        font-size: 1.2rem!important;
+      }
+    }
+  }
+}
