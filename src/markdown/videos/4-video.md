@@ -1,6 +1,6 @@
 ---
 id: 4
-title: White Christmas
-thumb: ../../images/videoThumbs/whiteChristmas.png
-link: https://youtu.be/cZPU4P0VaQA
+title: Final production – behind the scenes
+thumb: ../../images/videoThumbs/btsThumb.jpeg
+link: https://www.youtube.com/watch?v=8R4-BxIw0ks
 ---

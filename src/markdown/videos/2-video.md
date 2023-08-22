@@ -1,6 +1,6 @@
 ---
 id: 2
-title: Escape with us 2018.
-thumb: ../../images/videoThumbs/escapeThumb.png
-link: https://youtu.be/cZPU4P0VaQA
+title: Audition
+thumb: ../../images/videoThumbs/auditionThumb.jpeg
+link: https://www.youtube.com/watch?v=9Uwy10ELfDM&t
 ---

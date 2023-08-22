@@ -11,16 +11,18 @@ export default function ProgramDetails({ data }) {
   return (
     <section className={styles.programDetails}>
       <Nav />
-      <div className={styles.bannerWrapper}>
-        <Img
-          fluid={banner.childImageSharp.fluid}
-          className={styles.imgWrapper}
-        />
-        <h1>{title}</h1>
-      </div>
+      {banner && banner.childImageSharp && (
+        <div className={styles.bannerWrapper}>
+          <Img
+            fluid={banner.childImageSharp.fluid}
+            className={styles.imgWrapper}
+          />
+          <h1>{title}</h1>
+        </div>
+      )}
       <p>{textContent}</p>
 
-      {ages.length !== 0 && (
+      {ages && ages.length !== 0 && (
         <>
           <h3>UZRASTI</h3>
           <ul className={styles.agesList}>

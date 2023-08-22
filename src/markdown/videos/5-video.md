@@ -1,6 +1,6 @@
 ---
 id: 5
-title: Axis Mundi 2016.
-thumb: ../../images/videoThumbs/axisThumb.png
-link: https://youtu.be/cZPU4P0VaQA
+title: Competition, team building, memories
+thumb: ../../images/videoThumbs/competitionThumb.jpeg
+link: https://www.youtube.com/watch?v=6-ras48Yu7c
 ---

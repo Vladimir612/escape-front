@@ -4,10 +4,7 @@ import * as styles from "./contactPage.module.scss"
 const ContactPage = () => {
   return (
     <div className={styles.contactPage}>
-      <p>
-        Molimo da za upite vezane za upis nazovete voditeljice zadužene za
-        pojedinu lokaciju:
-      </p>
+      <p>Molimo Vas za upis kontaktirajte call centar po lokacijama:</p>
       <div className={styles.contacts}>
         <div>
           <h2>Centar - Anja</h2>
@@ -82,7 +79,7 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
-      <p>Dodatna savetovanja za napredne plesače i upit za nastupe</p>
+      <p>Dodatna savjetovanja za napredne plesače i upit za nastupe</p>
       <div className={styles.contacts}>
         <div>
           <h2>Karla</h2>

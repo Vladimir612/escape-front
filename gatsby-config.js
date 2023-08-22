@@ -9,7 +9,7 @@ module.exports = {
     title: `Escape plesni studio`,
     description: `Plesni studio Escape je edukacijska plesna škola umjetničke voditeljice Lidije Iveković osnovana 2009. godine s ciljem promoviranja plesne umjetnosti. Na 4 lokacije grada Zagreba kvalitetni i iskusni pedagozi mnogobrojne članove podučavaju raznim plesnim tehnikama te odgajaju profesionalne plesače.`,
     image: `/videoPoster.png`,
-    siteUrl: `https://wantedagencycroatia.com/`,
+    siteUrl: `https://www.plesnistudioescape.com/`,
   },
   /* Your site config here */
   plugins: [

@@ -41,7 +41,7 @@ const LocationsSection = () => {
       <p>
         Call centar za upise, informacije i savjetovanja je dostupan od
         22.08.2023. u terminu{" "}
-        <span style={{ color: "#3dad6a" }}>10:00 - 17:00 sati</span>.
+        <span style={{ color: "#3dad6a" }}>10:00 - 18:00 sati</span>.
       </p>
       <p>
         Vrata studija za probne satove svih stilova, dobi i nivoa otvorena su od

@@ -1,6 +1,6 @@
 ---
 id: 1
-title: Cabaret Nocturne
-thumb: ../../images/videoThumbs/cabaThumb.png
-link: https://youtu.be/cZPU4P0VaQA
+title: Promo
+thumb: ../../images/videoThumbs/promoThumb.jpeg
+link: https://www.youtube.com/watch?v=2TXlz9dCfIQ
 ---
