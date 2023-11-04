@@ -1,6 +1,7 @@
 import React from "react"
 import * as styles from "./footer.module.scss"
 import { FaTiktok } from "react-icons/fa"
+import { BsFacebook, BsYoutube, BsInstagram } from "react-icons/bs"
 
 const Footer = () => {
   return (
@@ -22,11 +23,7 @@ const Footer = () => {
           rel="noreferrer"
         >
           <div className={styles.imageWrapper}>
-            <img
-              src="/mediaIcons/fb.svg"
-              alt="Facebook link"
-              className={styles.logo}
-            />
+            <BsFacebook color="#fff" size={35} />
           </div>
         </a>
 
@@ -36,11 +33,7 @@ const Footer = () => {
           rel="noreferrer"
         >
           <div className={styles.imageWrapper}>
-            <img
-              src="/mediaIcons/inst.svg"
-              alt="Instagram link"
-              className={styles.logo}
-            />
+            <BsInstagram color="#fff" size={35} />
           </div>
         </a>
         <a
@@ -49,11 +42,7 @@ const Footer = () => {
           rel="noreferrer"
         >
           <div className={styles.imageWrapper}>
-            <img
-              src="/mediaIcons/yt.svg"
-              alt="Youtube link"
-              className={styles.logo}
-            />
+            <BsYoutube color="#fff" size={35} />
           </div>
         </a>
       </div>

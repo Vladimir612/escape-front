@@ -12,7 +12,7 @@
   .contacts {
     margin: 2rem 0;
     @include box-center($justify: flex-start, $align: flex-start);
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     gap: 4rem;
     h2 {
@@ -43,7 +43,7 @@
       text-align: center;
     }
     .contacts {
-      flex-direction: column;
+      flex-direction: row;
     }
   }
 }

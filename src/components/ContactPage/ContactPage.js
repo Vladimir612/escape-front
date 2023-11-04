@@ -4,28 +4,13 @@ import * as styles from "./contactPage.module.scss"
 const ContactPage = () => {
   return (
     <div className={styles.contactPage}>
-      <p>Molimo Vas za upis kontaktirajte call centar po lokacijama:</p>
+      <p>
+        Za sve upite u vezi upisa ili drop in satova u studio Escape, ljubazno
+        molimo kontaktirajte
+      </p>
       <div className={styles.contacts}>
         <div>
-          <h2>Centar - Anja</h2>
-          <div className={styles.phoneWrapper}>
-            <img src="/telefon.svg" alt="Phone logo" />
-            099 860 7501
-          </div>
-          <div className={styles.emailWrapper}>
-            <img src="/mail.svg" alt="Mail logo" />
-            <a
-              href="mailto: upisi.escape@gmail.com"
-              target="_blank"
-              rel="noreferrer"
-              style={{ color: "#3dad6a", textDecoration: "none" }}
-            >
-              upisi.escape@gmail.com
-            </a>
-          </div>
-        </div>
-        <div>
-          <h2>Trešnjevka - Marija</h2>
+          <h2>Marija</h2>
           <div className={styles.phoneWrapper}>
             <img src="/telefon.svg" alt="Phone logo" />
             091 457 3558
@@ -42,44 +27,11 @@ const ContactPage = () => {
             </a>
           </div>
         </div>
-        <div>
-          <h2>Dubrava - Chay</h2>
-          <div className={styles.phoneWrapper}>
-            <img src="/telefon.svg" alt="Phone logo" />
-            097 738 4889
-          </div>
-          <div className={styles.emailWrapper}>
-            <img src="/mail.svg" alt="Mail logo" />
-            <a
-              href="mailto: upisi.escape@gmail.com"
-              target="_blank"
-              rel="noreferrer"
-              style={{ color: "#3dad6a", textDecoration: "none" }}
-            >
-              upisi.escape@gmail.com
-            </a>
-          </div>
-        </div>
-        <div>
-          <h2>Zavrtnica - Ema</h2>
-          <div className={styles.phoneWrapper}>
-            <img src="/telefon.svg" alt="Phone logo" />
-            091 364 8455
-          </div>
-          <div className={styles.emailWrapper}>
-            <img src="/mail.svg" alt="Mail logo" />
-            <a
-              href="mailto: upisi.escape@gmail.com"
-              target="_blank"
-              rel="noreferrer"
-              style={{ color: "#3dad6a", textDecoration: "none" }}
-            >
-              upisi.escape@gmail.com
-            </a>
-          </div>
-        </div>
       </div>
-      <p>Dodatna savjetovanja za napredne plesače i upit za nastupe</p>
+      <p>
+        Za sve upite, ponude i savjetovanja vezana za angažman profesionalnih
+        plesača i umjetničkih izvođača kontaktirajte
+      </p>
       <div className={styles.contacts}>
         <div>
           <h2>Karla</h2>

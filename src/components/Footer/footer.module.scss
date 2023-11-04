@@ -3,13 +3,14 @@
 .mainFooter {
   @include box-center($justify: space-between);
   max-width: 75%;
-  margin: 2rem auto;
-  margin-top: 5rem;
+  margin: auto;
+  margin-bottom: 3rem;
   .leftSide {
     font-size: 1.3rem;
   }
   .rightSide {
     @include box-center;
+    margin-bottom: 3rem;
     gap: 2rem;
     .imageWrapper {
       height: 2.2rem;
@@ -35,6 +36,5 @@
   .mainFooter {
     flex-direction: column;
     gap: 2rem;
-    padding-bottom: 1rem;
   }
 }
