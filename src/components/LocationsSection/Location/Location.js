@@ -13,10 +13,10 @@ const Location = ({ locationObject }) => {
           <h3>{locationObject.title}</h3>
           <p>{locationObject.address}</p>
           <p className={styles.addressHelp}>{locationObject.addressHelp}</p>
-          <div className={styles.phoneWrapper}>
+          {/* <div className={styles.phoneWrapper}>
             <img src="/telefon.svg" alt="Phone logo" />
             {locationObject.phone}
-          </div>
+          </div> */}
           <div className={styles.emailWrapper}>
             <img src="/mail.svg" alt="Mail logo" />
             <a

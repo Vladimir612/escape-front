@@ -40,12 +40,12 @@ const LocationsSection = () => {
       <Subtitle title="Lokacije" />
       <p>
         Call centar za upise, informacije i savjetovanja je dostupan od
-        22.08.2023. u terminu{" "}
-        <span style={{ color: "#3dad6a" }}>10:00 - 18:00 sati</span>.
+        ponedjeljka do petka u terminu od{" "}
+        <span style={{ color: "#3dad6a" }}>10 do 18 sati</span>.
       </p>
       <p>
-        Vrata studija za probne satove svih stilova, dobi i nivoa otvorena su od
-        04.09.2023. na sljedećim lokacijama u Zagrebu:
+        Vrata studija za probne sate svih stilova, dobi i nivoa otvorena su od
+        09.09.2024. na slijedećim lokacijama u Zagrebu:
       </p>
       <div className={styles.locationsWrapper}>
         {locations.map((location, index) => (

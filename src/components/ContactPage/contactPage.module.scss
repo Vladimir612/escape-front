@@ -9,6 +9,11 @@
     font-size: 1.6rem;
     margin-top: 3rem;
   }
+  .phoneTxt{
+    margin-top: initial;
+    font-size: 1.2rem;
+    text-align: left;
+  }
   .contacts {
     margin: 2rem 0;
     @include box-center($justify: flex-start, $align: flex-start);

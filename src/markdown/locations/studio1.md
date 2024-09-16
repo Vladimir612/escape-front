@@ -1,9 +1,9 @@
 ---
 id: 1
-title: Studio 1 - CENTAR
-address: Palmotićeva 22
-addressHelp: (kolni ulaz od Saxa, do kraja i stepenicama gore)
+title: Studio 1 - TREŠNJEVKA
+address: Florijana Andrašeca 18
+addressHelp: (vrata desno, stepenicama dolje pa prvi kat)
 phone: Marija 091 457 3558
 email: upisi.escape@gmail.com
-thumb: ../../images/locations/lok1.png
+thumb: ../../images/locations/lok3.png
 ---

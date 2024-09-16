@@ -167,9 +167,9 @@ const Application = () => {
                         }}
                         className="green-btn next"
                       >
-                        SLEDEĆE
+                        SLIJEDEĆE
                       </button>
-                    ) :  (
+                    ) : (
                       <div className="button-group">
                         <button
                           onClick={() => {
