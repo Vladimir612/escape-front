@@ -35,15 +35,7 @@ const ContactPage = () => {
       <div className={styles.contacts}>
         <div>
           <h2>Laura</h2>
-          <p className={styles.phoneTxt}>Upisi putem poziva</p>
-          <div className={styles.phoneWrapper}>
-            <img src="/telefon.svg" alt="Phone logo" />
-            099 660 3315
-          </div>
-        </div>
-        <div>
-          <h2>Ivana</h2>
-          <p className={styles.phoneTxt}>Upisi putem maila</p>
+          <p className={styles.phoneTxt}>Upisi</p>
           <div className={styles.emailWrapper}>
             <img src="/mail.svg" alt="Mail logo" />
             <a
@@ -54,10 +46,6 @@ const ContactPage = () => {
             >
               upisi.escape@gmail.com
             </a>
-          </div>
-          <div className={styles.phoneWrapper}>
-            <img src="/telefon.svg" alt="Phone logo" />
-            099 623 4777
           </div>
         </div>
         <div>
